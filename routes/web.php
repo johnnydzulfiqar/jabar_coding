@@ -26,4 +26,4 @@ Route::group(['middleware' => ['auth']], function () {
     Route::resource('jawab', 'App\Http\Controllers\JawabController');
 });
 Route::resource('tanya', 'App\Http\Controllers\TanyaController');
-// Auth::routes();
+Auth::routes();
